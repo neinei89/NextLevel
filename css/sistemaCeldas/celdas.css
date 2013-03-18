@@ -1,0 +1,30 @@
+	.contenedor                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .contenedor .columna,
+    .contenedor .columnas                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .fila                                        { margin-bottom: 20px; }
+
+    /* Nested columna Classes */
+    .columna.alpha, .columnas.alpha               { margin-left: 0; }
+    .columna.omega, .columnas.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .contenedor .una.columna,
+    .contenedor .una.columnas                     { width: 40px;  }
+    .contenedor .dos.columnas                     { width: 100px; }
+    .contenedor .tres.columnas                   { width: 160px; }
+    .contenedor .cuatro.columnas                    { width: 220px; }
+    .contenedor .cinco.columnas                    { width: 280px; }
+    .contenedor .seis.columnas                     { width: 340px; }
+    .contenedor .siete.columnas                   { width: 400px; }
+    .contenedor .ocho.columnas                   { width: 460px; }
+    .contenedor .nueve.columnas                    { width: 520px; }
+    .contenedor .diez.columnas                     { width: 580px; }
+    .contenedor .once.columnas                  { width: 640px; }
+    .contenedor .doce.columnas                  { width: 700px; }
+    .contenedor .trece.columnas                { width: 760px; }
+    .contenedor .catorce.columnas                { width: 820px; }
+    .contenedor .quince.columnas                 { width: 880px; }
+    .contenedor .dieciseis.columnas                 { width: 940px; }
+
+   
+   
