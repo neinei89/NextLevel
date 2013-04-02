@@ -69,17 +69,32 @@
 <body>
 	<!-- cabecera de la pagina -->
 	<header class="contenedor">
-	<div class=" columnas dieciseis alpha" id="bg"> 
-		
-		<div class="columnas seis logo alpha omega">
-			<h1>Next</h1>
+		<div class="columnas seis logo alpha">
+			<div class="columna dos ">
+				hola que tal
+			</div>
+			<div class="columna dos ">
+				hola que tal
+			</div>
+			<div class="columna dos omega">
+				hola que tal
+			</div>
+			<!-- segunda fila -->
+			<div class="columna dos ">
+				hola que tal
+			</div>
+			<div class="columna dos ">
+				hola que tal
+			</div>
+			<div class="columna dos omega">
+				hola que tal
+			</div>
 		</div>
-		<div class="columnas diez  contenedorBuscador omega">
+		<div class="columnas diez omega contenedorBuscador">
 			login, registro y buscador
 		</div>
-		<div class="columnas diez  contenedorMenuCab omega">
+		<div class="columnas diez omega contenedorMenuCab">
 			menu de las categorias de los juegos y boton del carrito
-		</div>	
 		</div>	
 	</header>
 	<!-- fin cabecera d ela pagina -->
