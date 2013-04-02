@@ -1,17 +1,17 @@
-	.contenedor                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+	.contenedor                                  { position: relative; width: 960px; margin: 0 auto; padding: 0;  }
     .contenedor .columna,
     .contenedor .columnas                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .fila                                        { margin-bottom: 20px; }
 
-    /* Nested columna Classes */
+  
     .columna.alpha, .columnas.alpha               { margin-left: 0; }
     .columna.omega, .columnas.omega               { margin-right: 0; }
 
-    /* Base Grid */
+   
     .contenedor .una.columna,
     .contenedor .una.columnas                     { width: 40px;  }
-    .contenedor .dos.columnas                     { width: 100px; }
-    .contenedor .tres.columnas                   { width: 160px; }
+    .contenedor .dos.columnas                     { width: 101px; }
+    .contenedor .tres.columnas                   { width: 161px; }
     .contenedor .cuatro.columnas                    { width: 220px; }
     .contenedor .cinco.columnas                    { width: 280px; }
     .contenedor .seis.columnas                     { width: 340px; }
