@@ -16,7 +16,21 @@ a,a:hover,a:visited{
 	text-decoration: none;
 }
 
-
+input, textarea, select {
+	   border: 1px solid #111;
+	   padding: 0.5em;
+	   font-size: 15px;
+     line-height: 1.2em;
+     width: 80%;
+     background: #444;
+     color: #fff;
+     font-family: helvetica, sans-serif;
+     background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
+     -webkit-appearance: none;
+ 	   -webkit-box-shadow: 1px 1px 1px #333;
+	 }
+ input:focus, textarea:focus, select:focus {outline-color: #c00;}
+ 
 /*
  * cabecera
  * */
@@ -44,22 +58,41 @@ a,a:hover,a:visited{
 	color: #fff;
 	
 }
-.contenedorBuscador a{
+.contenedorMenuCab a{
 	font-weight:bold;
 	color: #ff742f;
 
 	
 }
-.contenedorBuscador .registro{
+.contenedorMenuCab .registro{
 	display: block;
 	padding-top: 20px;
 }
 
+
+.contenedorBuscador input[type="text"]{
+	padding: 9px 20px 9px;
+	background: #383838;
+	border-color: transparent;
+	border-radius: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #b7b7b7;
+	margin: 0;
+	outline: none;
+	width: 188px;
+	background: transparent url('http://tinywall.info/demos/fancy-search-box-form-html-css-css3/search-zoom-icon.png') no-repeat bottom left;
+}
+
+
+
+/*** fincabecera  **/
 .circulo{
 	background-color:red;
 	width: 90%; height: 90%; 
     -webkit-border-radius: 45%; -moz-border-radius: 50%;
 }
+
 
 .contenedorMenuGenero{
 	height: 400px;

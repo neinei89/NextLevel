@@ -76,7 +76,7 @@
 				
 			</div>
 			
-			<div class="columnas diez  contenedorBuscador omega">
+			<div class="columnas diez  contenedorMenuCab omega">
 				
 				<div class="columnas cinco alpha omega registro">
 					<a href="#">Registrarse</a>
@@ -88,9 +88,9 @@
 				
 			</div>
 			
-			<div class="columnas diez  contenedorMenuCab omega">
-				<input type="search" placeholder="buscar.." />
-				<button type="button" >boton</button>
+			<div class="columnas diez  contenedorBuscador omega">
+				<input type="text" placeholder="buscar.." />
+				
 			</div>	
 		</div>
 		<!-- siempre debe de ir despues de comletar las 16 columnas -->
