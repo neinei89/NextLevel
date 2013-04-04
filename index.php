@@ -68,19 +68,34 @@
 
 <body>
 	<!-- cabecera de la pagina -->
-	<header class="contenedor">
-	<div class=" columnas dieciseis alpha" id="bg"> 
-		
-		<div class="columnas seis logo alpha omega">
-			<h1>Next</h1>
+	<header class="full" id="bg">
+	<div class="contenedor">	
+		<div class=" columnas dieciseis alpha" > 
+			
+			<div class="columnas seis logo alpha omega">
+				
+			</div>
+			
+			<div class="columnas diez  contenedorBuscador omega">
+				
+				<div class="columnas cinco alpha omega registro">
+					<a href="#">Registrarse</a>
+					&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;
+					<a href="#" >Ingresar</a>
+					
+				</div>
+				<div class="columnas cinco omega circulo"></div>
+				
+			</div>
+			
+			<div class="columnas diez  contenedorMenuCab omega">
+				<input type="search" placeholder="buscar.." />
+				<button type="button" >boton</button>
+			</div>	
 		</div>
-		<div class="columnas diez  contenedorBuscador omega">
-			login, registro y buscador
-		</div>
-		<div class="columnas diez  contenedorMenuCab omega">
-			menu de las categorias de los juegos y boton del carrito
-		</div>	
-		</div>	
+		<!-- siempre debe de ir despues de comletar las 16 columnas -->
+		<div class="clear"></div>
+	</div>	
 	</header>
 	<!-- fin cabecera d ela pagina -->
 	
@@ -92,6 +107,7 @@
 				<div class="columnas once  contenedorSlider">
 					slider de imagenes
 				</div>
+				<div class="clear"></div>
 	</div>
 	<!-- fin  slider y menu generos--->
 	
@@ -109,6 +125,7 @@
 				<div class=" columnas cuatro contenedorItem omega" >
 					algo
 				</div>
+				<div class="clear"></div>
 	</div>
 	<!-- Fin articulos mas vendidos-->
 	
@@ -118,6 +135,7 @@
 		<div class="columnas dieciseis algo alpha omega">
 				y algo mas XD
 		</div>
+		<div class="clear"></div>
 	</div>
 	
 	<!-- Pie de pagina -->
@@ -125,6 +143,7 @@
 		<div class="columnas dieciseis footer alpha">
 			pie de pagina ..
 		</div>
+		<div class="clear"></div>
 	</footer>
 	<!-- fin del pie de la pagina -->
 	

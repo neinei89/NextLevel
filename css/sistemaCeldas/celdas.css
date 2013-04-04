@@ -27,4 +27,13 @@
     .contenedor .dieciseis.columnas                 { width: 940px; }
 
    
-   
+   .full{width: 100%;background-color: red;}
+   .clear {
+	  clear: both;
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  width: 0;
+	  height: 0;
+	}
+

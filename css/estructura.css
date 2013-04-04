@@ -1,48 +1,66 @@
 body {
-	font-size: 20px;
-	color: #000;
 
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	color: #60605f;
+	margin: 0px;
 	
 	
 }	
 div{
-	border: 1px #000 dashed;
-	margin: 1px;
-}
-#bg{
-	border-top: 1px solid #444;
-	background: url(../img/header.gif) center top repeat-x #040404;
+	border: 1px transparent dashed;
 
+}
+a,a:hover,a:visited{
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*
+ * cabecera
+ * */
+#bg{
+	border-top: 3px solid rgb(129, 129, 129);;
+	background: url(../img/header.gif) center top repeat-x #040404;
+	padding: 0px 0 7px;
+	border-bottom: 6px solid rgb(129, 129, 129);;
 }
 /*logo*/
 .logo{
 
-	background: url( ../img/logo-bg.png) no-repeat 0% 0%;
+	background: url( ../img/logo.png) no-repeat left center;
 	min-height: 100px;
 	width:100%;
-	
+	margin: 0 auto;
 }
 
-.logo h1{
-	background: none;
-	height: auto;
-	margin: 0;
-	padding: 0;
-	letter-spacing: -2px;
-	line-height: 1.2em;
-	font-family: 'Open Sans',sans-serif;
-	font-size: 50px;
-	font-weight: 800;
-	text-transform: capitalize;
-	color: #fff;
-}
+
 
 
 .contenedorMenuCab,.contenedorBuscador{
-	height: 48px;
-	
+	height: 48px;	
+	font-size:14px;
+	color: #fff;
 	
 }
+.contenedorBuscador a{
+	font-weight:bold;
+	color: #ff742f;
+
+	
+}
+.contenedorBuscador .registro{
+	display: block;
+	padding-top: 20px;
+}
+
+.circulo{
+	background-color:red;
+	width: 90%; height: 90%; 
+    -webkit-border-radius: 45%; -moz-border-radius: 50%;
+}
+
 .contenedorMenuGenero{
 	height: 400px;
 }
