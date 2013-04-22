@@ -30,6 +30,8 @@ input, textarea, select {
  	   -webkit-box-shadow: 1px 1px 1px #333;
 	 }
  input:focus, textarea:focus, select:focus {outline-color: #c00;}
+
+
  
 /*
  * cabecera
@@ -67,12 +69,15 @@ input, textarea, select {
 .contenedorMenuCab .registro{
 	display: block;
 	padding-top: 20px;
+	float: right;
 }
 
+.contenedorBuscador .buscar{
+	float: right;
+}
 
-.contenedorBuscador input[type="text"]{
+ input[type="text"]{
 	padding: 9px 20px 9px;
-	background: #383838;
 	border-color: transparent;
 	border-radius: 2px;
 	font-size: 15px;
@@ -80,27 +85,93 @@ input, textarea, select {
 	color: #b7b7b7;
 	margin: 0;
 	outline: none;
-	width: 188px;
-	background: transparent url('http://tinywall.info/demos/fancy-search-box-form-html-css-css3/search-zoom-icon.png') no-repeat bottom left;
+	width:100%;
+	background: #383838 url('http://tinywall.info/demos/fancy-search-box-form-html-css-css3/search-zoom-icon.png') no-repeat center right;
+}
+
+
+#navCabecera{
+	float: right;
+	position: relative;
+	padding-top: 11px;
+}
+
+#navCabecera ul{
+	margin: 0px;
+	display: block;
+	padding: 0;	
+}
+#navCabecera li{
+	display: block;
+	list-style: none;
+	float: left;
+	position: relative;
+	margin-left: 25px;
+}
+#navCabecera ul li:first-child{
+	margin-left: 0px !important;
+
+}
+#navCabecera a{
+	color: #ff;
+	text-decoration: none;
+	font: bold 21px/24px Arial, Helvetica, sans-serif;
+}
+
+#navCabecera a.seleccionado,#navCabecera a:hover{
+	color: #fd4f0d;
+	font-size: 21.5px;
 }
 
 
 
-/*** fincabecera  **/
-.circulo{
-	background-color:red;
-	width: 90%; height: 90%; 
-    -webkit-border-radius: 45%; -moz-border-radius: 50%;
-}
 
 
+
+#slideshow{width:1920px; height:700px; overflow:hidden; position:relative;}  
+#slideshow li{width:960px; height:350px; float:left; display:inline;}  
 .contenedorMenuGenero{
 	height: 400px;
 }
-.contenedorSlider{
+#ContenedorSlide{
 	height: 400px;
+	background:#131310;
+	overflow:hidden; 
+	position:relative; 
+	margin:10px auto 10px auto;
+}
+#ContenedorSlide .slide{
+	clear: both;
+	width: 960px;
+	height: 350px;
+	background: #131310;
+	overflow: hidden;
+	position: relative;
+	margin: 10px auto 10px auto;
+}
+
+
+#topVentas{
 	
 }
+#topVentas h3{
+	margin-bottom: 20px;
+	font: normal 24px/29px Arial, Helvetica, sans-serif;
+	color: #383838;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	border-bottom: 3px solid #484848;
+	padding-bottom: 3px;
+}
+#topVentas h3 span{
+	h3 span {
+	display: inline-block;
+	font: 400 35px/42px  sans-serif;
+	color: #fd500f;
+	vertical-align: baseline;
+}
+
+
 .masVendidos,.contenedor{
 	border:none;
 }

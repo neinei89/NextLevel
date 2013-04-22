@@ -1,9 +1,10 @@
-	.contenedor                                  { position: relative; width: 960px; margin: 0 auto; padding: 0;  }
+	  .contenedor                                  { position: relative; width: 960px; margin: 0 auto; padding: 0;  }
     .contenedor .columna,
     .contenedor .columnas                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .fila                                        { margin-bottom: 20px; }
 
-  
+    /*el .alpha se coloca siempre el la primera celda de cada fila
+    y el omega en la ultima de cada fila*/
     .columna.alpha, .columnas.alpha               { margin-left: 0; }
     .columna.omega, .columnas.omega               { margin-right: 0; }
 
@@ -27,8 +28,11 @@
     .contenedor .dieciseis.columnas                 { width: 940px; }
 
    
+   /*esta clase se usa para que la capa utilize el 100% del ancho de la pagina , ejemplo:el slider*/
    .full{width: 100%;background-color: red;}
-   .clear {
+  /*debaji de cada contenedor se debe de colocar un div vacio con esta clase css, para el coñazo de los solapaminetos XD*/  
+  /*aunque no es necesario utilizarlo, no esta de mas*/
+  .clear {
 	  clear: both;
 	  display: block;
 	  overflow: hidden;

@@ -51,9 +51,11 @@
 	
 	<!-- jquery-->
 	<script src="js/librerias/jquery/jquery.js"></script>
+	<script src="js/librerias/jquery/jquery.easing.js"></script>
+	<script src="js/librerias/jquery/jquery.timer.js"></script>
 	<!-- habilita los medias queryes para los navegadores que no lo soportan -->
 	<script type="text/javascript" src="js/librerias/css3-mediaqueries/css3-mediaqueries.js"></script>
-	
+	<script type="text/javascript" src="js/librerias/slider.js"></script>
 	
 	<!-- ==================================================
 				CSS
@@ -68,64 +70,77 @@
 
 <body>
 	<!-- cabecera de la pagina -->
-	<header class="full" id="bg">
-	<div class="contenedor">	
+   <header class="full" id="bg">
+	 <div class="contenedor">	
 		<div class=" columnas dieciseis alpha" > 
 			
 			<div class="columnas seis logo alpha omega">
 				
 			</div>
 			
-			<div class="columnas diez  contenedorMenuCab omega">
-				
+			<div class="columnas diez  contenedorMenuCab omega">				
 				<div class="columnas cinco alpha omega registro">
 					<a href="#">Registrarse</a>
 					&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;
 					<a href="#" >Ingresar</a>
 					
-				</div>
-				<div class="columnas cinco omega circulo"></div>
-				
+				</div>				
 			</div>
 			
 			<div class="columnas diez  contenedorBuscador omega">
-				<input type="text" placeholder="buscar.." />
-				
+				<div class="columnas cinco alpha omega buscar">
+					<input type="text" placeholder="buscar.."  />
+				</div>
 			</div>	
 		</div>
+		<div class="clear"></div>
+		<nav id="navCabecera" class=" columnas dieciseis alpha">
+			<ul>
+				<li>
+					<a href="#" class="seleccionado">Xbox 360</a>
+				</li>
+				<li>
+					<a href="#">PS3</a>
+				</li>
+				<li>
+					<a href="#">WII</a>
+					
+				</li>
+				<li>
+					<a href="#">PSP Vita</a>
+				</li>
+				<li>
+					<a href="#">PC</a>
+				</li>
+			</ul>
+		</nav>
 		<!-- siempre debe de ir despues de comletar las 16 columnas -->
 		<div class="clear"></div>
 	</div>	
 	</header>
 	<!-- fin cabecera d ela pagina -->
 	
+	<div class="clear"></div>
 	<!-- espacio para el menu de los generos y el slider de imagenes-->
-	<div id="ContenedorSlideGeneros" class="contenedor" >
-				<div class="columnas cinco alpha contenedorMenuGenero">
-					menu de los generos
-				</div>
-				<div class="columnas once  contenedorSlider">
-					slider de imagenes
-				</div>
-				<div class="clear"></div>
+	<div id="ContenedorSlide" class="contenedor" >
+		<div class="columnas dieciseis alpha slide">
+			
+			<ul id="slideshow">  
+            <li class="box1"><img src="img/tiger.jpg" alt="Tiger"/></li>  
+            <li class="box2"><img  src="img/tiger.jpg" alt="Macaw"/></li>  
+            <li class="box3"><img  src="img/tiger.jpg" alt="Bald Eagle"/></li>  
+            <li class="box4"><img  src="img/tiger.jpg" alt="Panda"/></li>  
+        </ul>  
+		</div>
+				
 	</div>
 	<!-- fin  slider y menu generos--->
-	
+	<div class="clear"></div>
 	<!-- espacio para los articulos mas vendidos -->
-	<div class="masVendidos contenedor">
-				<div class=" columnas cuatro contenedorItem alpha" >
-					algo
-				</div>
-				<div class=" columnas cuatro contenedorItem" >
-					algo
-				</div>
-				<div class=" columnas cuatro contenedorItem" >
-					algo
-				</div>
-				<div class=" columnas cuatro contenedorItem omega" >
-					algo
-				</div>
-				<div class="clear"></div>
+	<div id="top" class="contenedor">
+			<div id="topVentas" class=" alpha columnas ocho">
+			<h3> Top 10 <span>más vendidos</span></h3>
+			</div>	
 	</div>
 	<!-- Fin articulos mas vendidos-->
 	
