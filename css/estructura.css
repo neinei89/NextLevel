@@ -115,7 +115,7 @@ input, textarea, select {
 #navCabecera a{
 	color: #ff;
 	text-decoration: none;
-	font: bold 21px/24px Arial, Helvetica, sans-serif;
+	font: bold 21px/24px Helvetica, sans-serif;
 }
 
 #navCabecera a.seleccionado,#navCabecera a:hover{
@@ -156,19 +156,58 @@ input, textarea, select {
 }
 #topVentas h3{
 	margin-bottom: 20px;
-	font: normal 24px/29px Arial, Helvetica, sans-serif;
-	color: #383838;
+	font: 700 35px/42px  helvetica, sans-serif;;
+	color: #fd500f;
 	text-transform: uppercase;
 	vertical-align: baseline;
 	border-bottom: 3px solid #484848;
 	padding-bottom: 3px;
 }
 #topVentas h3 span{
-	h3 span {
 	display: inline-block;
-	font: 400 35px/42px  sans-serif;
-	color: #fd500f;
+	font: normal 24px/29px  Helvetica, sans-serif;
+	color: #383838;
+	vertical-align: bottom;
+	text-transform: none;
 	vertical-align: baseline;
+}
+.contenedorTop10{
+	margin-bottom: 20px;
+	width: 100%;
+	overflow: hidden;
+	
+}
+.imgTop {
+	padding: 0;
+	margin: 0;
+}
+.imgTop img{
+	border-radius:5px;
+	width:70px;
+	height: 50px;
+	margin-top: 6px;
+}
+.textoTop h6{
+	font: bold 18px/22px Helvetica, sans-serif;
+	color: rgb(133, 123, 123);
+	margin-bottom: 4px;
+	margin-top:3px;
+}
+.textoTop P{
+	margin-bottom:12px;
+	font-size: 13px;
+	text-align: justify;
+}
+.textoTop a{
+	margin-right:2px;
+	display: inline-block;
+	cursor: pointer;
+	font: 700 17px/22px Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	padding: 2px 15px;
+	background: #fd500f;
+	border-radius: 4px;
 }
 
 
