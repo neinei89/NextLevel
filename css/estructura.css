@@ -15,7 +15,7 @@ a,a:hover,a:visited{
 	color: #fff;
 	text-decoration: none;
 }
-
+/*
 input, textarea, select {
 	   border: 1px solid #111;
 	   padding: 0.5em;
@@ -30,17 +30,17 @@ input, textarea, select {
  	   -webkit-box-shadow: 1px 1px 1px #333;
 	 }
  input:focus, textarea:focus, select:focus {outline-color: #c00;}
-
+*/
 
  
-/*
+/*+++++++++++++++++++++++++++++++++++++++++++
  * cabecera
- * */
+ ++++++++++++++++++++++++++++++++++++++++++++*/
 #bg{
 	border-top: 3px solid rgb(129, 129, 129);;
 	background: url(../img/header.gif) center top repeat-x #040404;
 	padding: 0px 0 7px;
-	border-bottom: 6px solid rgb(129, 129, 129);;
+	border-bottom: 6px solid rgb(129, 129, 129);
 }
 /*logo*/
 .logo{
@@ -75,7 +75,47 @@ input, textarea, select {
 .contenedorBuscador .buscar{
 	float: right;
 }
+/**botn de busqueda */
+ 	
+ #contenedorBuscador fieldset {
+  border: none;
+}
 
+#contenedorBuscador input[type="text"] {
+	 background-color: #42454e;
+	padding: 9px 20px 9px;
+	border-color: transparent;
+	border-radius: 2px;
+	font-size: 15px;
+	color: #b7b7b7;
+	margin: 0;
+	outline: none;
+	width: 195px;
+}
+
+#contenedorBuscador input[type="submit"] {
+	background-color: #fd500f;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 3px;
+	padding: 10px 9px 10px 9px;
+	text-align: center;
+	-webkit-appearance: none;
+	border: none;
+	cursor: pointer;
+	float: right;
+}
+#contenedorBuscador div.seis{
+	float: right !important;
+}
+#contenedorBuscador input[type="text"]::-webkit-input-placeholder { color: #42454e; }
+#contenedorBuscador input[type="text"]:-moz-placeholder { color: #42454e; }
+#contenedorBuscador input[type="text"]:-ms-input-placeholder { color: #42454e; }
+/*	
  input[type="text"]{
 	padding: 9px 20px 9px;
 	border-color: transparent;
@@ -88,8 +128,11 @@ input, textarea, select {
 	width:100%;
 	background: #383838 url('http://tinywall.info/demos/fancy-search-box-form-html-css-css3/search-zoom-icon.png') no-repeat center right;
 }
+*/
 
 
+
+/*menu de navegacion cabecera*/
 #navCabecera{
 	float: right;
 	position: relative;
@@ -130,9 +173,6 @@ input, textarea, select {
 
 #slideshow{width:1920px; height:700px; overflow:hidden; position:relative;}  
 #slideshow li{width:960px; height:350px; float:left; display:inline;}  
-.contenedorMenuGenero{
-	height: 400px;
-}
 #ContenedorSlide{
 	height: 400px;
 	background:#131310;
@@ -151,9 +191,8 @@ input, textarea, select {
 }
 
 
-#topVentas{
-	
-}
+
+/*titulo del top 10 mas vendidos*/
 #topVentas h3{
 	margin-bottom: 20px;
 	font: 700 35px/42px  helvetica, sans-serif;;
@@ -171,35 +210,17 @@ input, textarea, select {
 	text-transform: none;
 	vertical-align: baseline;
 }
-.contenedorTop10{
-	margin-bottom: 20px;
-	width: 100%;
-	overflow: hidden;
-	
+
+/*el primero del top*/
+.topUno{
+   display: block;
+   position: relative;
+   float: left;
+   overflow: hidden;
+   margin: 0;
 }
-.imgTop {
-	padding: 0;
-	margin: 0;
-}
-.imgTop img{
-	border-radius:5px;
-	width:70px;
-	height: 50px;
-	margin-top: 6px;
-}
-.textoTop h6{
-	font: bold 18px/22px Helvetica, sans-serif;
-	color: rgb(133, 123, 123);
-	margin-bottom: 4px;
-	margin-top:3px;
-}
-.textoTop P{
-	margin-bottom:12px;
-	font-size: 13px;
-	text-align: justify;
-}
-.textoTop a{
-	margin-right:2px;
+.topUno a,.topResto a{
+	margin-right: 2px;
 	display: inline-block;
 	cursor: pointer;
 	font: 700 17px/22px Helvetica, sans-serif;
@@ -208,23 +229,212 @@ input, textarea, select {
 	padding: 2px 15px;
 	background: #fd500f;
 	border-radius: 4px;
+	top: 0px;
+	position: absolute;
+	margin-left: 194px;
+	opacity: 0;
+}
+.topUno:hover a{
+	opacity: 1;
+}
+
+.topUno img{
+	width: 100%;
+	height: 170px;
+	border-radius: 6px;
+}
+.topUno figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+  opacity: 1;
+  bottom: 0;
+  border-radius: 0px 25px 0 0;
+
+}
+
+/** lo demas del top*/
+.topResto{
+	margin:3px 0 0 0 ;	
+	border-top : 2px solid #ccc;
+	padding-top: 8px;
+}
+.topResto img{
+	width: 37%;
+	height: 55px;
+	border-radius: 3px;
+	float: left;
+}
+.topResto a{
+	margin-left:10px;
+	opacity: 1;
+	position: relative;
+	float: right;
+}
+.topResto figcaption{
+  text-indent:10px;
+  display: block;
+  padding: 0px 5px 0 0;
+  height: 25px;
+  text-align: right;
+  
 }
 
 
-.masVendidos,.contenedor{
-	border:none;
+/** top valoracione s*/
+#topValoraciones{
+
+	height: 300px;
+	background: #f3f3f3;
+	border-radius: 4px;
+	color: #8d8d8d;
+	margin-left: 25px;
 }
-.contenedorItem{
-	margin-top: 15px;
-	margin-bottom: 8px;
-	height: 200px;
+#topValoraciones h3{
+	margin-bottom: 20px;
+	font: 700 35px/42px  helvetica, sans-serif;;
+	color: #fd500f;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	border-bottom: 3px solid #484848;
+	padding-bottom: 3px;
 }
-.algo{
-	height: 150px;
-	padding-right: 8px;
+#topValoraciones h3 span{
+	display: inline-block;
+	font: normal 24px/29px  Helvetica, sans-serif;
+	color: #383838;
+	vertical-align: bottom;
+	text-transform: none;
+	vertical-align: baseline;
+	
 }
-.footer{
-	margin-top: 9px;
-	height: 80px;
-	padding-right: 8px;
+
+#topValoraciones .columnas{
+	margin-left: 0!important;
 }
+#topValoraciones  img{
+	width: 100px;
+	height: 70px;
+	border-radius: 3px;
+	float: left;
+}
+
+#topValoraciones figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+  opacity: 0;
+  bottom: 0;
+
+  
+
+}
+#topValoraciones figure{
+   display: block;
+   position: relative;
+   float: left;
+   overflow: hidden;
+   margin: 0 6px 10px 6px;
+   
+}
+#topValoraciones figure:hover figcaption{
+	opacity: .8;
+	cursor: pointer;
+}
+#topValoraciones a{
+	display: inline-block;
+	width: 4px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../img/link.gif) center top no-repeat;
+	margin-left: 9px;
+	vertical-align: 1px;
+	cursor: pointer;
+}
+#topValoraciones a:hover{
+	background: url(../img/link.gif) center bottom no-repeat;
+}
+
+
+
+#ultimosComentarios{
+	margin-top:25px;
+	height: 567px;
+	background: #cacaca;
+	border-radius: 4px;
+	color: #8d8d8d;
+	margin-left: 25px;
+	overflow: hidden;
+}
+#ultimosComentarios h3{
+	margin-bottom: 20px;
+	font: 700 35px/42px  helvetica, sans-serif;;
+	color: #fd500f;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 3px;
+	padding-left: 25px;
+}
+#ultimosComentarios h3 span{
+	display: inline-block;
+	font: normal 24px/29px  Helvetica, sans-serif;
+	color: #383838;
+	vertical-align: bottom;
+	text-transform: none;
+	vertical-align: baseline;
+}
+
+
+#ultimosComentarios li{
+	list-style: none;
+}
+#ultimosComentarios ul li span{
+	font: 600 12px/18px  Helvetica, sans-serif;
+	color: #818181;
+	
+}
+#ultimosComentarios a{
+	font: 600 12px/18px  Helvetica, sans-serif;
+	color: #ff742f;
+	outline: none;
+	text-decoration: none;
+}
+#ultimosComentarios li{
+	padding: 5px 10px 12px 0px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 16px
+}
+#ultimosComentarios ul{
+	margin-left: 5px;
+	padding: 0 30px 0 5px;
+}
+#ultimosComentarios p{
+	margin: 5px 0 5px 0;
+}
+
+
+/* pie pagina*/
+#piePagina{
+	margin-top:35px;
+	background: #333;
+	padding: 27px 0;
+	font: 600 12px/18px  Helvetica, sans-serif;
+	color: #707171;
+}
+#piePagina a{
+	color: #ff742f;
+	outline: none;
+	text-decoration: none;
+	float: right;
+}
+#piePagina hr{
+	
+	border: 2px #cacaca solid;
+}
+
+

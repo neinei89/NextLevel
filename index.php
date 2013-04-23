@@ -87,9 +87,17 @@
 				</div>				
 			</div>
 			
-			<div class="columnas diez  contenedorBuscador omega">
-				<div class="columnas cinco alpha omega buscar">
-					<input type="text" placeholder="buscar.."  />
+			<div id="contenedorBuscador" class="columnas diez   omega">
+				<div class="columnas seis alpha omega ">
+					
+				<!--	<input type="text" placeholder="buscar.."  />-->
+					<form action="javascript:void(0);" method="GET">
+						<fieldset>		
+							<input type="text" placeholder="buscar.." name="buscar"  />
+							<input type="submit" value="Buscar" class="button">		
+						</fieldset>
+
+					</form>
 				</div>
 			</div>	
 		</div>
@@ -105,6 +113,18 @@
 				<li>
 					<a href="#">WII</a>
 					
+				</li>
+				<li>
+					<a href="#">PSP Vita</a>
+				</li>
+				<li>
+					<a href="#">PC</a>
+				</li>
+				<li>
+					<a href="#">PSP Vita</a>
+				</li>
+				<li>
+					<a href="#">PC</a>
 				</li>
 				<li>
 					<a href="#">PSP Vita</a>
@@ -139,72 +159,213 @@
 	<!-- espacio para los articulos mas vendidos -->
 	<div id="top" class="contenedor">
 			<div id="topVentas" class=" alpha columnas seis">
-				<h3> Top 10 <span>más vendidos</span></h3>
-				<div class="contenedorTop10"> 
-					<figure class="columnas dos alpha omega imgTop">
-						<img src="img/tiger.jpg" alt="">
-					</figure>
-					<div class="columnas cuatro omega textoTop">
-						<h6> titulo del videojuego </h6>
-						<!--<p>
-							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusm od tempor incididunt. Fusce euis mod consequat ante. Lorem ipsum dolor sit amet, 
-						</p>-->
+				<div class="columnas seis">
+					<h3> Top 10 <span>más vendidos</span></h3>
+				</div>
+				<!-- el 1º del top -->
+				<div class="columnas seis">
+					<figure class="topUno">
+						<img src="img/tiger.jpg" alt="" class="">
 						<a href="#">ver detalles </a>
-					</div>
+						<figcaption>A country road at sunset.</figcaption>			
+					</figure>
+				</div>
+				<!-- los 9 restantes -->
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+			    <div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
+				</div>
+				<div class="columnas seis">
+					<figure class="topResto">
+						<img src="img/tiger.jpg" alt="" class="">
+						<figcaption class=" ">A country road at sunset.</figcaption>						
+						<a href="#" class="">ver detalles </a>
+								
+					</figure>
 				</div>
 				
-				
-				<div class="contenedorTop10"> 
-					<figure class="columnas dos alpha omega imgTop">
-						<img src="img/tiger.jpg" alt="">
-					</figure>
-					<div class="columnas cuatro omega textoTop">
-						<h6> titulo del videojuego </h6>
-						<!--<p>
-							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusm od tempor incididunt. Fusce euis mod consequat ante. Lorem ipsum dolor sit amet, 
-						</p>-->
-						<a href="#">ver detalles </a>
-					</div>
-				</div>
-				
-				
-				<div class="contenedorTop10"> 
-					<figure class="columnas dos alpha omega imgTop">
-						<img src="img/tiger.jpg" alt="">
-					</figure>
-					<div class="columnas cuatro omega textoTop">
-						<h6> titulo del videojuego </h6>
-						<!--<p>
-							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusm od tempor incididunt. Fusce euis mod consequat ante. Lorem ipsum dolor sit amet, 
-						</p>-->
-						<a href="#">ver detalles </a>
-					</div>
-				</div>
-				
-				
-				<div class="contenedorTop10"> 
-					<figure class="columnas dos alpha omega imgTop">
-						<img src="img/tiger.jpg" alt="">
-					</figure>
-					<div class="columnas cuatro omega textoTop">
-						<h6> titulo del videojuego </h6>
-						<!--<p>
-							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusm od tempor incididunt. Fusce euis mod consequat ante. Lorem ipsum dolor sit amet, 
-						</p>-->
-						<a href="#">ver detalles </a>
-					</div>
-				</div>
 				
 			</div>	
+			
+			
+			<!-- top valoraciones -->
+			<div id="topValoraciones" class="columnas diez omega ">
+				<div class="columnas diez">
+					<h3> Top 10 <span>más valorados</span></h3>
+				</div>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">
+						A country road at sunset.
+						<a href="#" title="Ver más "></a>
+					</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+				
+				<figure>
+					<img src="img/tiger.jpg" alt="" class="">
+					<figcaption class=" ">A country road at sunset.</figcaption>	
+				</figure>
+			</div>
+			<div id="ultimosComentarios" class="columnas diez omega ">
+				
+					<h3> Top 10 <span>más valorados</span></h3>
+				
+				<ul>
+					<li>
+						<span>Neineiraceo</span> sobre <a href="#"> Algún videojuego </a> 
+						<p>
+							Lorem ipsum dolor sit amet conse ctetur adipi­sicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</li>
+					<li>
+						<span>Neineiraceo</span> sobre <a href="#"> Algún videojuego </a> 
+						<p>
+							Lorem ipsum dolor sit amet conse ctetur adipi­sicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</li>
+					<li>
+						<span>Neineiraceo</span> sobre <a href="#"> Algún videojuego </a> 
+						<p>
+							Lorem ipsum dolor sit amet conse ctetur adipi­sicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</li>
+					<li>
+						<span>Neineiraceo</span> sobre <a href="#"> Algún videojuego </a> 
+						<p>
+							Lorem ipsum dolor sit amet conse ctetur adipi­sicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</li>
+					<li>
+						<span>Neineiraceo</span> sobre <a href="#"> Algún videojuego </a> 
+						<p>
+							Lorem ipsum dolor sit amet conse ctetur adipi­sicing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+					</li>
+				</ul>
+				
+			</div>
+			
 			<div class="clear"></div>
 	</div>
-	<!-- Fin articulos mas vendidos-->
+	<!--  Comentarios recientes-->
+	
+	
 	
 	
 	<!-- Pie de pagina -->
-	<footer class="contenedor">
-		<div class="columnas dieciseis footer alpha">
-			pie de pagina ..
+	<footer id="piePagina" class="full">
+		<hr>
+		<div class="contenedor" >
+			<div class="columnas dieciseis footer alpha">
+				
+				<span> NextLevel © 2012 </span><a href="#"> Contacta con nosotros</a>
+			</div>
 		</div>
 		<div class="clear"></div>
 	</footer>
